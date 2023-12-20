@@ -1,0 +1,370 @@
+:root{
+    --main-col:#d22f27;
+    --main-hover:#aa2720;
+}
+
+
+*{
+    padding: 0;margin: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.container1{
+    height:85vh;
+    width:100vw;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_small.jpg" );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 100px 300px #000000bd;
+    color:white;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+
+
+header{
+    height:10vh;
+    width:100vw;
+    background-color: transparent;
+}
+.logo{
+    height:13vh;
+    width:12vw;
+    margin-left: 11%;
+}
+
+.container1 .stuff{
+    height:5vh;
+    width:8vw;
+    margin-left: 49vw;
+    border-radius: 5%;
+    border:1px solid rgba(175, 175, 175, 0.632);
+    padding:0 1%;
+}
+.container1 #globe{
+    font-size: x-large;
+    color:white;cursor:pointer;
+}
+.container1 #lang{
+    background-color: transparent;
+    border: transparent;
+    font-size: medium;
+    height:5vh;
+    width:6vw;
+    margin-right:2%;
+    cursor:pointer;
+    
+    color: white;
+}
+.container1 option{
+    color:black;
+}
+.signIn{
+    background-color: var(--main-col);
+    color:white;
+    padding:1%;
+    width:5vw;
+    height:5vh;
+    border:transparent;
+    border-radius: 10%;
+    margin-right: 10%;
+    font-weight: bolder;cursor:pointer;
+}
+
+.container1 .text{
+    font-size: x-large;
+    margin-bottom: 25vh;
+}
+.container1 .text h1{
+    font-weight: bolder;
+    margin:0.8% 0;
+}
+.container1 .text h5,.container1 .text h4{
+    margin:0.8% 0;
+    font-weight: 300;
+}
+.container1 .input{
+    margin-top: 1%;
+}
+.container1 .input input{
+    width:30vw;
+    height:6vh;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.615);
+    border:1px solid rgb(110, 110, 110);
+    color:white;
+    padding: 0 2%;
+}
+.container1 .getStarted{
+    background-color: var(--main-col);
+    color:white;
+    padding:1%;
+    width:13vw;
+    height:6vh;
+    border:transparent;
+    font-size: large;
+    border-radius: 5px;
+    margin: 0 5%;
+    font-weight: bolder;cursor:pointer;
+}
+
+
+.container2{
+    height:70vh;
+    width:100vw;
+    
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container2 .text{
+    margin-left: 5%;
+    width:40vw;
+    
+    color:white;
+}
+.container2 .text h1{
+    
+    font-size: 250%;
+    font-weight: bolder;
+}
+.container2 .text h5{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.container2 .gif{
+    height:40vh;width:30vw;
+}
+.container2 .gif img{
+    
+    height:115%;
+    width:100%;
+    position: absolute;
+    top:0;left:0;
+}
+.container2 .gif video{
+    
+    height:63%;
+    position: absolute;
+    top:74px;left:45px;
+}
+
+
+
+.container3{
+    height:70vh;
+    width:100vw;
+    
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container3 .text{
+    width:40vw;
+    color:white;
+}
+
+.container3 .text h1{
+    
+    font-size: 250%;
+    font-weight: bolder;
+}
+.container3 .text h5{
+    font-size: x-large;
+    font-weight: 300;
+}
+.container3 .images{
+    height: 40vh;
+    width:40vw;
+}
+#first{
+    height: 40vh;
+    width:30vw;
+}
+.stranger{
+    border:2px solid rgba(150, 148, 148, 0.687);
+    color: white;
+    width:15vw;
+    border-radius: 10px;
+}
+.stranger p,#load{
+    color:#0071eb;
+}
+#second{
+    height:10vh;
+    width:3vw;
+}
+
+
+.container4{
+    height:70vh;
+    width:100vw;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container4 .video{
+    overflow: hidden;
+    height:46%;
+    width:61%;
+    position: absolute;
+    top:11%;
+    left:19%;
+
+}
+.container4 img{
+    position: relative;
+}
+.container4 .text{
+    margin-left: 5%;
+    width:40vw;
+    
+    color:white;
+}
+.container4 .text h1{
+    
+    font-size: 250%;
+    font-weight: bolder;
+}
+.container4 .text h5{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+
+
+.container5{
+    height:70vh;
+    width:100vw;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container5 img{
+    height:70%;
+    width:40%;
+    margin-left: 5%;
+}
+.container5 .text{
+    margin:0 8% 0 0%;
+    width:40vw;
+    
+    color:white;
+}
+.container5 .text h1{
+    
+    font-size: 250%;
+    font-weight: bolder;
+}
+.container5 .text h5{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+
+.container6{
+    height:120vh;width:100vw;
+    color:white;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container6 h1{
+    margin: 3%;
+    font-size:3vw;
+}
+.container6 ul{
+    list-style-type: none;
+    text-decoration: none;
+    height:70vh;
+    width:100vw;
+}
+.container6 li{
+    background-color: rgba(45, 44, 44, 0.724);
+    height: 10vh;
+    width:60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+    font-size: x-large;
+}
+.container6 li:hover{
+    background-color: rgba(45, 44, 44, 0.989);
+    cursor: pointer;
+}
+.container6 .input{
+    margin:2%;
+    width: 45vw;
+    height:6vh;
+}
+.container6 .input input{
+    width:30vw;
+    height:6vh;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.615);
+    border:1px solid rgb(110, 110, 110);
+    color:white;
+    padding: 0 2%;
+}
+.container6 p{
+    margin:2% 0 0 0;
+    font-size: x-large;
+}
+.container6 .getStarted{
+    background-color: var(--main-col);
+    color:white;
+    padding:1%;
+    width:13vw;
+    height:6vh;
+    border:transparent;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.getStarted:hover,.signIn:hover{
+    cursor: pointer;
+    background-color: var(--main-hover);
+}
+
+footer{
+    height:60vh;
+    width:80vw;
+    margin:0 auto;
+    color:white;
+}
+footer p{
+    color:rgb(170, 170, 170);
+}
+footer p u{
+    cursor: pointer;
+}
+footer u{
+    height:30vh;
+    color:rgb(170, 170, 170);
+}
+.container7 ul{
+    list-style-type: none;
+    text-decoration: none;
+    height:30vh;
+    width:30vw;
+}
+.container7 ul li{
+    margin:2% 0%;cursor: pointer;
+}
+.container7 .stuff{
+    height:3vh;
+    width:7vw;
+    border-radius: 5%;
+    border:1px solid rgba(175, 175, 175, 0.632);
+    padding:0.5% 1%;
+    margin: 0 0 2% 0;
+}
+.container7 .globe{
+    font-size: larger;
+    color: white;cursor: pointer;
+}
+.container7 .lang{
+    background-color: transparent;
+    border: transparent;
+    height:3vh;
+    
+    width:6vw;
+    margin-right:2%;
+    color:white;cursor: pointer;
+}
